@@ -1,0 +1,33 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;  
+}
+body{
+    background-color: #365e5c;
+    font-family: cursive;
+}
+.main-container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ip-display , .location , .C-code , .Network-com , .Country , .Version {
+font-size: calc(2rem + 1vw);
+}
+.ip-result{
+    border: none;
+    background-color: #172433;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0.8rem  1.5rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: opacity 250ms linear;
+}
+.ip-result:hover{
+    opacity: 0.8;
+}
